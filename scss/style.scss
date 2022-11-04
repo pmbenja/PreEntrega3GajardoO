@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("/imagenes/fondoNegro.jpg");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: auto;
+  .navBar {
+    background-color: rgb(174, 138, 40);
+    li {
+      display: inline;
+      padding: 20px;
+      font-size: 30px;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+    }
+    a:hover {
+      border: none;
+      color: rgb(235, 212, 0);
+      text-align: center;
+      font-size: 32px;
+      margin: 4px 2px;
+      -webkit-text-stroke: none;
+      transition: 0.2s;
+    }
+  }
+  #logoInicio {
+    width: 400px;
+    height: 280px;
+    padding: 1.3%;
+    display: block;
+    margin: auto;
+  }
+
+  .contenedorPizzas {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 50px;
+    color: aliceblue;
+    font-size: 4rem;
+    -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+    img {
+      max-width: 30rem;
+    }
+  }
+
+  .nombreMoe,
+  .Nosotros {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+    text-shadow: 5px 4px 4px #000;
+  }
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 50px;
+    color: aliceblue;
+  }
+
+  p,
+  .listaPizzas img {
+    height: 150px;
+  }
+
+  .preguntas {
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+
+  .registro label {
+    color: aliceblue;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "entrega3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comp:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
